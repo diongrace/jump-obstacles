@@ -17,6 +17,8 @@ section {
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 0 50px rgba(0,0,0,0.1);
+    background-image:url(assets/im1g.png);
+
 }
 .jeu {
     width: 500px;
@@ -37,8 +39,11 @@ section {
 }
 
 .animation {
+    
     animation:  perso-saut 500ms infinite;
+    
 }
+
 
 /*Animation personnage saute*/
 @keyframes   perso-saut {
